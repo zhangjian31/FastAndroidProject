@@ -24,6 +24,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     api rootProject.ext.dependencies["appcompat-v7"]
 
-
+    api 'com.android.support:multidex:1.0.3'
     api project(':module_network')
 }

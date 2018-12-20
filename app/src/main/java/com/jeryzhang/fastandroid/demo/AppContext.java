@@ -1,15 +1,15 @@
 package com.jeryzhang.fastandroid.demo;
 
-import android.app.Application;
 import android.os.Build;
 
+import com.jeryzhang.common.module_base.BaseApplication;
 import com.jeryzhang.common.module_network.config.RequestConfig;
 import com.jeryzhang.common.module_utils.util.ScreenUtils;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class AppContext extends Application {
+public class AppContext extends BaseApplication {
     @Override
     public void onCreate() {
         super.onCreate();
